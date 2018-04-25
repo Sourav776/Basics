@@ -46,12 +46,3 @@ int main()
 
     return 0;
 }
-/*
-5 Sourav 112
-9 sohel 122
-8 gobinda 15
-6 somu 12
-2 ahsin 125
-6 arnob 12
-*/
-
