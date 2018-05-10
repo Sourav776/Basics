@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset ="UTF-8"/>
+	<title>JavaScript Fundamentals!</title>
+	<link rel="stylesheet" type ="css/text" href="main.css"/>
+</head>
+<body>
+	<section class="content">
+		<div class="header">
+			<h1> <script> document.write("JavaScript Tutorials");</script></h1>
+		</div>
+		<div class="maincontent">
+			<div id="show"></div>
+			<script>
+				var my_name="My name is Frankie";
+			document.write(my_name) ;
+			document.write("</br>");
+			var a=10;
+			var b=35;
+			document.write("Sum is :" + (a+b) + " And Product is :" +(a*b));
+
+			document.write("</br>");
+			var c="red";
+			function function_one(){
+				var c="green";
+				document.write(c);
+			}
+			function_one();
+		    document.write("</br>" + c + "</br>");
+		    console.time("Time Check");
+            var d="Sourav ";
+		    var e="Mondal";
+		    name=d+e;
+		   document.write(name);
+		   console.timeEnd("Time Check");
+		    //document.getElementById("show").innerHTML=name;
+		    window.alert(name);
+		    console.log(name);
+		    console.log(my_name);
+		    console.info("%s","you have a notification");
+		    console.warn("do you wanna go here?");
+		    console.error(" This can't be helped");
+
+
+		</script>
+		</div>
+		<div class ="footer">
+			<h1> <script> document.write("Gonna be a good lesson!");</script></h1>
+		 </div>
+	</section>	 
+
+</body>	
+
+</html>

@@ -1,0 +1,5 @@
+*{margin: 0; padding: 0; outline: 0;}
+body{font-family:arial; font-size:18px; color:#4565; line-height:25px;}
+.content {backgroud:#f0f0f0;width:800px; margin:0 auto;}
+.maincontent {background:#fff;margin:500px; padding:5px 10px; min-height:500px;}
+.footer {backgroud: #ddd; text-align: center;padding:5px}
